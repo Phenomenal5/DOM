@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     const totalCost = document.querySelector('.total');
 
 
-
+// calculate total price
     function updateTotal(){
         let totalPrice = 0;
         document.querySelectorAll(".card").forEach((item, index) => {
@@ -54,6 +54,4 @@ document.addEventListener("DOMContentLoaded", () =>{
             event.target.style.color = event.target.style.color === 'black' ? 'red' : 'black' ;
         });
     });
-})
-
-
+});
